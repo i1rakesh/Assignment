@@ -1,0 +1,20 @@
+body{
+  background:rgb(230, 224, 224);
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+  color: black;
+}
+form{
+  margin-top: 2rem;
+}
+.form-group{
+  margin: 1rem;
+  justify-content: space-between;
+}
+label{
+  font-weight: bold;
+  margin-inline: 1rem;
+}
