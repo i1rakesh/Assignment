@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Navbar.css';
 import Navdata from "../local-json/data.json"
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,9 @@ const Navbar = () => {
           Close
         </button>
         {Navdata.navLink.map((item, index) => (
-          <a href={`${item.link}`} key={index}>{item.name}</a>
+          <Link to={item.link}>
+          <a key={index}>{item.name}</a>
+          </Link>
         ))}
       </div>
       <div className='navbar-serach'>
