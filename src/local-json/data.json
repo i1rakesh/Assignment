@@ -1,0 +1,113 @@
+{
+  "navLink": [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "About",
+      "link": "/aboutUs"
+    },
+    {
+      "name": "Contact",
+      "link": "/contactUs"
+    },
+    {
+      "name": "Services",
+      "link": "/services"
+    },
+    {
+      "name": "Communities",
+      "link": "/communities"
+    }
+  ],
+  "companyInfo": [
+    {
+      "CompanyName": "Home",
+      "CompanyLogo":"https://i.pinimg.com/originals/53/6e/f7/536ef704d35845627b5667480b6a09b9.png",
+      "ComanyDescribtion":"XYZ is a vibrant online platform that brings together diverse communities of programming and development enthusiasts."   
+    }
+  ],
+  "cards": [
+    {
+      "key":1,
+      "name": "Flutter Community",
+      "description": "The Flutter Community is a vibrant and inclusive community of developers, designers, and enthusiasts who are passionate about building beautiful and performant mobile applications using Flutter. With a focus on cross-platform development, Flutter allows developers to create stunning user interfaces and delightful experiences for iOS, Android, web, and desktop platforms using a single codebase. The Flutter Community is dedicated to sharing knowledge, collaborating on projects, organizing events, and providing support to help each other grow and succeed with Flutter. Whether you are a beginner or an experienced developer, the Flutter Community welcomes you to join this exciting journey of building innovative and engaging mobile applications.",
+      "image": "https://uploads-ssl.webflow.com/5f841209f4e71b2d70034471/6078b650748b8558d46ffb7f_Flutter%20app%20development.png",
+      "status": "Public",
+      "statusImg":"https://img.icons8.com/ios/50/unlock-2.png"
+    },
+    {
+      "key":2,
+      "name": "Angular Community",
+      "description": "The Angular Community is a vibrant and diverse community of developers who are passionate about building robust web applications using Angular. Angular is a powerful framework for creating dynamic and scalable applications with a focus on code reusability and maintainability. The Angular Community is dedicated to sharing knowledge, best practices, and innovative solutions to help developers maximize the potential of Angular. With a wide range of resources, tutorials, and active discussions, the Angular Community provides a supportive environment for both beginners and experienced developers to learn, collaborate, and build amazing web applications.",
+      "image": "https://s3-ap-south-1.amazonaws.com/trt-blog-ghost/2023/01/AngularJS.png",
+      "status": "Private",
+      "statusImg":"https://img.icons8.com/ios/50/lock-2.png"
+    },
+    {
+      "key":3,
+      "name": "React.js Community",
+      "description": "The React.js Community is a thriving and inclusive community of developers who are passionate about building interactive and reusable user interfaces using React.js. React.js is a popular JavaScript library that enables developers to create component-based UIs for web and mobile applications. The React.js Community is known for its active collaboration, extensive ecosystem, and constant innovation. Whether you're a beginner or an experienced developer, the React.js Community offers a wealth of resources, tutorials, and supportive discussions to help you leverage the power of React.js and create stunning applications with ease.",
+      "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--54ca_F2q--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wwdyw5de8avrdkgtz5n.png",
+      "status": "Public",
+      "statusImg":"https://img.icons8.com/ios/50/unlock-2.png"
+    },
+    {
+      "key":4,
+      "name": "Node.js Community",
+      "description": "The Node.js Community is a dynamic and vibrant community of developers who are passionate about server-side JavaScript and building scalable network applications using Node.js. Node.js allows developers to build fast, scalable, and event-driven applications, making it ideal for building web servers, microservices, real-time applications, and APIs. The Node.js Community is a hub of knowledge sharing, collaboration, and innovation. With a vast array of libraries, frameworks, and tools, the Node.js Community empowers developers to create powerful and efficient server-side applications, leveraging the full potential of JavaScript on the server.",
+      "image": "https://railsware.com/blog/wp-content/uploads/2018/09/2400%D1%851260-rw-blog-node-js.png",
+      "status": "Private",
+      "statusImg":"https://img.icons8.com/ios/50/lock-2.png"
+    },
+    {
+      "key":5,
+      "name": "Kotlin Community",
+      "description": "The Kotlin Community is a passionate and forward-thinking community of developers who embrace the modern programming language Kotlin. Kotlin is a statically-typed language that runs on the Java Virtual Machine (JVM) and offers seamless interoperability with Java. The Kotlin Community is known for its emphasis on productivity, conciseness, and safety. Whether you're developing Android apps, backend services, or cross-platform applications, the Kotlin Community provides a supportive environment for learning, sharing ideas, and exploring the vast ecosystem of Kotlin libraries and frameworks. Join the Kotlin Community to unlock the full potential of this expressive and versatile language.",
+      "image": "https://images.prismic.io/qovery/c952e642-7c8c-4e2f-854e-b14a14868b3e_kotlin.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&q=50",
+      "status": "Public",
+      "statusImg":"https://img.icons8.com/ios/50/unlock-2.png"
+    },
+    {
+      "key":6,
+      "name": "Next.js Community",
+      "description": "The Next.js Community is an enthusiastic and innovative community of developers who are passionate about building performant and scalable web applications using Next.js. Next.js is a popular framework built on top of React.js that offers server-side rendering, static site generation, and other advanced features out of the box. The Next.js Community is committed to sharing knowledge, best practices, and exciting use cases for Next.js. With an active community, extensive documentation, and a supportive ecosystem, the Next.js Community provides developers with the tools and resources needed to build modern and cutting-edge web applications with ease.",
+      "image": "https://gorzelinski.com/static/1db41e3ecd311724a15306b270d99dd9/6e87d/next-js-logo.png",
+      "status": "Private",
+      "statusImg":"https://img.icons8.com/ios/50/lock-2.png"
+    },
+    {
+      "key":7,
+      "name": "UI/UX Developer Community",
+      "description": "The UI/UX Developer Community is a thriving and creative community of designers and developers who are passionate about crafting exceptional user experiences. UI/UX developers focus on creating intuitive, user-friendly interfaces that delight users and enhance the overall usability of applications. The UI/UX Developer Community is known for its collaborative spirit, constant exploration of new design trends and tools, and dedication to creating visually stunning and highly functional interfaces. Whether you're a designer looking to improve your coding skills or a developer interested in enhancing your design abilities, the UI/UX Developer Community provides a supportive and inspiring environment to learn, grow, and share your passion for creating outstanding user experiences.",
+      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220619235029/UI-UX-Developer-Education-Skills-Salary-and-Career.jpg",
+      "status": "Public",
+      "statusImg":"https://img.icons8.com/ios/50/unlock-2.png"
+    },
+    {
+      "key":8,
+      "name": "Backend Developer Community",
+      "description": "The Backend Developer Community is a dynamic and collaborative community of developers who specialize in building the server-side logic and infrastructure that powers web applications and systems. Backend developers focus on designing and implementing efficient, scalable, and secure solutions to handle data storage, processing, and communication. The Backend Developer Community is dedicated to sharing knowledge, discussing best practices, and exploring the latest trends and technologies in backend development. With a strong emphasis on performance, security, and reliability, the Backend Developer Community provides a supportive environment for developers to learn, collaborate, and build robust backend systems that drive modern applications and services.",
+      "image": "https://i0.wp.com/www.myeverydaytech.com/wp-content/uploads/2023/03/backend-developer-Large.jpeg",
+      "status": "Private",
+      "statusImg":"https://img.icons8.com/ios/50/lock-2.png"
+    },
+    {
+      "key":9,
+      "name": "Cybersecurity Community",
+      "description": "The Cybersecurity Community is a passionate and vigilant community of professionals dedicated to safeguarding digital systems and protecting against cyber threats. Cybersecurity professionals focus on identifying vulnerabilities, implementing security measures, and responding to security incidents to ensure the integrity, confidentiality, and availability of information. The Cybersecurity Community actively shares knowledge, best practices, and the latest techniques in cybersecurity. By fostering collaboration, continuous learning, and raising awareness, the Cybersecurity Community plays a crucial role in defending against ever-evolving cyber threats. Join the Cybersecurity Community to stay informed, enhance your skills, and contribute to a safer digital world.",
+      "image": "https://www.springboard.com/blog/wp-content/uploads/2021/06/shutterstock_505066678-scaled-scaled.jpg",
+      "status": "Public",
+      "statusImg":"https://img.icons8.com/ios/50/unlock-2.png"
+    },
+    {
+      "key":10,
+      "name": "Video Editor Community",
+      "description": "The Video Editor Community is a vibrant and creative community of professionals who are passionate about crafting compelling visual stories through video editing. Video editors work with various footage, audio, and visual effects to create engaging and impactful videos. The Video Editor Community is known for its expertise in video editing software, artistic vision, and storytelling abilities. This community provides a platform for collaboration, learning, and sharing of tips, techniques, and industry trends. Whether you're a professional video editor or an aspiring enthusiast, the Video Editor Community welcomes you to join a community that celebrates the art of video editing and helps you enhance your skills in this exciting field.",
+      "image": "https://www.filmsupply.com/articles/wp-content/uploads/sites/3/2023/02/peter-stumpf-yk9VXp4W5-Q-unsplash-1.jpg",
+      "status": "Public",
+      "statusImg":"https://img.icons8.com/ios/50/unlock-2.png"
+    }
+  ]
+}

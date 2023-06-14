@@ -1,0 +1,113 @@
+footer {
+    background: #213049;
+    padding: 2rem 0rem 1rem 2rem;
+    
+    color: white;
+  }
+  .footer-logo {
+    height: 4rem;
+    justify-self: start;
+    border-radius: 1rem;
+  }
+  .aboutUs {
+    justify-content:space-between;
+    display: flex;
+  }
+  .aboutUs form{
+    height: 3rem;
+    align-self: center;
+  }
+  .aboutUs p{
+    width: 30vw;
+  }
+  .socials {
+    justify-content: space-between;
+  }
+  .otherLinks {
+    display: flex;
+    gap: 6vw;
+    margin-bottom: 2rem;
+  }
+  .otherLinks a,
+  h2 {
+    text-decoration: none;
+    color: white;
+  }
+  .community {
+    display: flex;
+    flex-direction: column;
+  }
+  .copyright {
+    color: aliceblue;
+  }
+  .sectionOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 14vw;
+  }
+  .search-bar{
+    padding: 0.8rem;
+    border-radius: 2rem;
+    border: none;
+  }
+  form{
+    display: flex;
+    gap: 4rem;
+  }
+  .aboutUs button{
+    padding: 1rem;
+    border-radius: 2rem;
+    background:rgb(246, 55, 55);
+    border: none;
+    color: white;
+    font: bold;
+    letter-spacing: 2px;
+  }
+  .aboutUs button:hover{
+    scale: 0.9;
+  }
+  @media only screen and (min-width: 600px) {
+    .otherLinks {
+      flex-direction: column;
+    }
+    .aboutUs {
+        justify-content:space-between;
+        display: flex;
+      }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .otherLinks {
+      flex-direction: row;
+    }
+    
+  }
+  @media only screen and (max-width: 1200px){
+
+    .aboutUs {
+        display: block;
+      }
+      .aboutUs form{
+        display:block;
+      }
+    .aboutUs p{
+        width:100%;
+      }
+    br{
+      display: none;
+    }
+    .firstContainer img{
+      margin-top: 10rem;
+    }
+    .otherLinks{
+      display: block;
+    }
+    .sectionOne{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-inline: 2rem;
+      
+    }
+  }
