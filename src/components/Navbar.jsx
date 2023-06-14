@@ -16,16 +16,14 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isOpen ? 'active' : ''}`}>
         <div className="navbar-toggle" onClick={toggleMenu}>
-        <div className={`bar ${isOpen ? 'open' : ''}`}></div>
-        <div className={`bar ${isOpen ? 'open' : ''}`}></div>
-        <div className={`bar ${isOpen ? 'open' : ''}`}></div>
+        <img className='hamburger' width="40" height="40" src="https://img.icons8.com/ios-filled/50/FFFFFF/menu--v1.png" alt="menu--v1"/>
       </div>
       
         <img className="navbar-logo" src={Navdata.companyInfo[0].CompanyLogo} alt="" />
         
       <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
       <button className="close-btn" onClick={closeMenu}>
-          Close
+      <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/FA5252/multiply.png" alt="multiply"/>
         </button>
         {Navdata.navLink.map((item, index) => (
           <Link to={item.link}>

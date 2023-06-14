@@ -8,6 +8,14 @@
     padding: 10px;
     
   }
+  .close-btn {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: red;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
   .navbar-logo {
     display: block;
     width: 4rem;
@@ -17,12 +25,8 @@
   .navbar-toggle {
     display: none;
   }
-  
-  .bar {
-    width: 100%;
-    height: 3px;
-    background-color: #fff;
-    transition: all 0.3s ease;
+  .hamburger{
+    align-self: center;
   }
   .navbar-menu {
     display: flex;
@@ -84,9 +88,10 @@
     .close-btn {
         padding: 5px 10px;
         background-color: #fff;
-        color: #333;
+        float: right;
         border: none;
         border-radius: 3px;
+        display: block;
         cursor: pointer;
       }
   }
